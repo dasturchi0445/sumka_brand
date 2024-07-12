@@ -1,0 +1,166 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: sans-serif;
+}
+
+.container{
+max-width: 1440px;
+padding: 0 100px;
+margin: 0 auto;
+}
+
+
+/* header style  */
+
+header{
+
+background: url(./images/orqa-fon.avif);
+background-repeat: no-repeat;
+background-size: cover;
+border-bottom: 1px solid    rgba(212, 210, 210, 0.205);
+}
+
+.header-parent{
+    width: 100%;
+    position: fixed;
+ padding: 15px 0 ;
+display: flex;
+gap: 200px;
+}
+
+.header-left{
+display: flex;
+gap: 150px;
+align-items: center;
+}
+
+.header-left img{
+width: 50px;
+height: 50px;
+border-radius: 100px;
+}
+
+.logo{
+gap: 15px;
+display: flex;
+align-items: center;
+}
+
+.logo h1{
+font-size: 30px;
+color: rgb(255, 255, 255);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+text-shadow: 1px 0px 3px fuchsia;
+cursor: pointer;
+transition: all 0.6s ease-in-out;
+}
+
+.logo h1:hover{
+transform: translateY(-9px);
+}
+
+.header-right{
+align-items: center;
+display: flex;
+}
+
+.header-right button{
+background-color: rgb(255, 255, 255);
+font-size: 12px;
+padding: 10px 20px;
+color: rgb(134, 127, 127);
+font-weight: 800;
+cursor: pointer;
+border: none;
+border-radius: 10px;
+box-shadow: 1px 0px 3px fuchsia;
+transition: all 0.6s ease-in-out;
+}
+
+.header-right button:hover{
+    transform: translateY(-9px);
+}
+
+.telegram i{
+color:rgb(86, 166, 241) ;
+}
+
+
+.telegram a{
+text-decoration: none;
+font-size: 16px;
+font-weight: 800;
+color: rgb(86, 166, 241);
+}
+
+.telegram{
+    transition: all 0.6s ease-in-out;
+}
+
+.telegram:hover{
+    transform: translateY(-9px);
+}
+
+.instagram{
+    display: flex;
+    gap: 7px;
+align-items: center ;
+transition: all 0.6s ease-in-out;
+}
+
+.instagram:hover{
+    transform: translateY(-9px);
+}
+
+.instagram i{
+color: rgb(255, 68, 0);
+}
+
+.instagram a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(255, 68, 0);
+}
+
+/* header finish */
+
+
+/* main senter  */
+
+.center{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url(./images/background-sumka.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 1000px;
+    height: 500px;
+}
+
+h2{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+    text-shadow: 1px 0px 3px fuchsia;
+    cursor: pointer;
+}
+
+.center1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url(./images/background-sumka.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 1000px;
+    height: 900px;
+}
+
+video{
+padding-top: 50px;
+}
